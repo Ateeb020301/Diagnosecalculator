@@ -1,0 +1,230 @@
+body{					
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+/* --------------------------------Header------------------------------ */
+header {
+    display: flex;
+    justify-content: center;
+    min-height: 7.5vh;
+    background-color: teal;
+}
+
+header .head-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 25%;
+}
+
+header .head-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 60%;
+}
+
+header .menu li  {
+    display: inline;
+    margin-right: 45px;
+}
+
+header .menu li a {
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+}
+
+header .menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+header .header_nav_ul {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+header .menu li a:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+header .header_nav_ul{
+    text-decoration: none;
+    font-size: 21px;
+    color:teal;
+    font-size: 20px;
+    text-decoration: none;
+}
+header .head-logo span{
+    font-size: 50px;
+    font-weight:  1000px;;
+    color: red;
+}
+
+header .menu li a:not(#active):hover:before{
+    visibility: visible;
+    color: white;
+    width: 100%;
+}
+
+#active {
+    color: gold;
+    border-bottom: solid;
+}
+#active1{
+    color: white;
+    border-bottom: solid;
+}
+
+.head-logo {
+    display: flex;
+}
+
+.head-logo {
+    cursor: default;
+}
+
+.head-logo img {
+    position: relative;
+    left: 20px;
+}
+
+nav ul li a{
+    color: white;
+}
+
+.a1{
+	cursor: pointer;
+	transition: all 0.9s ease 0s;
+}
+.a1:hover{
+	color: gold;
+}
+.b1{
+	background-color: white;
+	color: teal;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	padding: 8px 16px;
+	transition: all 0.9s ease 0s;
+}
+.b1:hover{
+	background-color: gold;
+}
+/* -------------------body------------------- */
+#form{
+	color: teal;
+	position: relative;
+	left: 25%;
+	width: 1000px;
+	height: 500px;
+	border: 2px dashed teal;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+#form_ul{
+	position: absolute;
+	top: 25%;
+}
+.form_ul_li{
+	list-style: none;
+	padding-bottom: 20px;
+}
+#btn3:hover{
+	background-color: red;
+	color: white;
+}
+#btn4{
+	color: white;
+	background-color: indianred;
+	position: absolute;
+	top: 40%;
+	left: 33%;
+	border: none;
+	border-radius: 50px;
+	padding: 20px;
+	font-size: 25px;
+	transition: all 0.5s ease 0s;
+}
+#btn4:hover{
+	background-color: gold;
+	color: teal;
+}
+#scheme{
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	height: 90%;
+	width: 70%;
+	border: 2px solid teal;
+	border-radius: 10px;
+}
+#scheme > div{
+	padding: 10px;
+}
+#s2 > input {
+	position: absolute;
+	left: 30%;
+}
+#span1{
+	position: absolute;
+	left: 30%;
+}
+.sbtn{
+	background-color: teal;
+	color: white;
+	border: none;
+	border-radius: 50px;
+	padding: 8px 16px;
+	transition: all 0.5s ease 0s;
+}
+.sbtn:hover{
+	color: gold;
+}
+#feil1, #feil2, #feil3{
+	color: red;
+}
+#s1_neste, #s2_neste, #s3_neste{
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+}
+#s2_tilbake, #s3_tilbake{
+	position: absolute;
+	left: 5%;
+	bottom: 5%;
+}
+.text_links{
+	color: teal;
+	cursor: pointer;
+}
+.s3_span{
+	position: absolute;
+	right: 15%;
+}
+#start{
+	width: 100%;
+	height: 100%;
+	background-color: teal;
+	margin: auto;
+	
+}
+#resultat_a{
+	text-decoration: underline;
+}
